@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'iransans';
+    src: url('iransans.ttf');
+}
+
+.register{
+    background-color: lightblue;
+    width: 50%;
+    margin: 3vw auto;
+    direction: rtl;
+    text-align: center;
+    padding: 2vw 3vw;
+    border-radius: 2vw;
+}
+.register h1{
+    font-family: 'iransans';
+    font-size: 1.3vw;
+    color: coral;
+}
+.register label{
+    display: block;
+    font-family: 'iransans';
+}
+.register input{
+    font-family: 'iransans';
+    font-size: 1vw;
+    background-color: white;
+    border: none;
+    border-radius: 1vw;
+    padding: 0.5vw 3vw;
+}
+.register button{
+    background-color: blue;
+    color: white;
+    display: block;
+    width: 30%;
+    border: none;
+    margin: auto;
+    margin-top: 1vw;
+    font-family: 'iransans';
+    font-size: 1.1vw;
+    padding: 0.5vw 3vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.register button:hover{
+    background-color: chocolate;
+}
