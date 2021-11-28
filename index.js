@@ -25,7 +25,6 @@ app.set('views', './views');
 
 
 
-
 app.get('/', function(req, res){
     res.render('home');
 })

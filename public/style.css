@@ -2,7 +2,10 @@
     font-family: 'iransans';
     src: url('iransans.ttf');
 }
-
+body{
+    padding: 0;
+    margin: 0;
+}
 .register{
     background-color: lightblue;
     width: 50%;
@@ -12,11 +15,46 @@
     padding: 2vw 3vw;
     border-radius: 2vw;
 }
+
+
+
+
+
+
+
+
+
+
 .register h1{
     font-family: 'iransans';
     font-size: 1.3vw;
     color: coral;
+    transition-duration: 500ms;
 }
+.register h1:hover{
+    color: purple;
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .register label{
     display: block;
     font-family: 'iransans';
@@ -45,4 +83,19 @@
 }
 .register button:hover{
     background-color: chocolate;
+}
+
+
+footer{
+    background-color: darkblue;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 3vw 2vw;
+    overflow-y: scroll;
+}
+footer img{
+    height: 15vw;
+    margin-left: 1vw;
+    float: right;
 }
